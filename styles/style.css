@@ -1,0 +1,58 @@
+/* Estilos de RESET */
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+}
+
+/* Globals */
+
+html {
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* Layout */
+
+header, main, footer{
+    border: 5px solid blueviolet;
+
+}
+
+/* Header */
+
+header {
+    height: 20vh;
+}
+header > nav, header>div{
+    border: 3px solid red;
+    height: 10vh;
+    color:brown;
+    font-family:roboto;
+}
+
+/* main */
+
+main{
+    height: 60vh;
+
+}
+main p{
+    color: blue;
+    background-color: magenta;
+
+}
+.red{
+    background-color: red;
+}
+/* .yellow{
+    background-color: yellow;
+} */
+
+/* footer */
+
+footer{
+    height: 20vh;
+}
+
